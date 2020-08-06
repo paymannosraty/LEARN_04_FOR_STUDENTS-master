@@ -9,9 +9,6 @@
 		/// <summary>
 		/// Age
 		/// </summary>
-		[System.ComponentModel.DataAnnotations.StringLength
-			(maximumLength: 3)]
-
 		[System.ComponentModel.DataAnnotations.Range
 			(minimum: 1, maximum: 100)]
 		public int Age { get; set; }
